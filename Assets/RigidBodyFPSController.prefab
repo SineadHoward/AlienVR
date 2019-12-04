@@ -4776,6 +4776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4084350341178984885}
+  - component: {fileID: 1455669303353685047}
   - component: {fileID: 4084350341177448373}
   - component: {fileID: 4084350341179870101}
   - component: {fileID: 4084350341185003635}
@@ -4801,6 +4802,22 @@ Transform:
   m_Father: {fileID: 4084350341178984887}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1455669303353685047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4084350341179479441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5dd43baba2d4dc1bab789615567e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycasterEventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxRaycastHits: 64
 --- !u!20 &4084350341177448373
 Camera:
   m_ObjectHideFlags: 0
@@ -5096,7 +5113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d085424b981a39d40ab4d22177df5a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 10
+  gameOverBox: {fileID: 0}
+  gameOverText: {fileID: 0}
+  currentHealth: 10
 --- !u!1001 &4084350340891477513
 PrefabInstance:
   m_ObjectHideFlags: 0

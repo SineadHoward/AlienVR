@@ -68,6 +68,19 @@
     <Compile Include="Assets\alien character\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
     <Compile Include="Assets\alien character\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
     <Compile Include="Assets\alien character\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
+    <Compile Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/myGames/VR/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -292,6 +305,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>C:/myGames/VR/Assets/gvr-unity-sdk-master/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/myGames/VR/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

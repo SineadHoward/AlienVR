@@ -272,3 +272,4 @@ C:\myGames\VR\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\myGames\VR\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\myGames\VR\obj\Debug\Assembly-CSharp.dll
 C:\myGames\VR\obj\Debug\Assembly-CSharp.pdb
+C:\myGames\VR\Temp\bin\Debug\Google.ProtocolBuffers.dll
