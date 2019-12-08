@@ -322,10 +322,8 @@
     <None Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
     <None Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
     <None Include="Assets\alien character\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
-    <None Include="Assets\gvr-unity-sdk-master\native_libs\gvr-permissionsupport\src\main\AndroidManifest.xml" />
     <None Include="Assets\gvr-unity-sdk-master\Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
     <None Include="Assets\alien character\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\gvr-unity-sdk-master\native_libs\gvr-permissionsupport\src\main\res\values\strings.xml" />
     <None Include="Assets\gvr-unity-sdk-master\native_libs\gvr-exoplayersupport\src\main\cpp\CMakeLists.txt" />
     <None Include="Assets\gvr-unity-sdk-master\native_libs\gvr-keyboardsupport\src\main\AndroidManifest.xml" />
     <None Include="Assets\gvr-unity-sdk-master\native_libs\gvr-keyboardsupport\src\main\res\values\strings.xml" />

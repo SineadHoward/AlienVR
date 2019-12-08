@@ -43,7 +43,7 @@ public class PlayerShootingController : MonoBehaviour
             EnemyHealth health = hit.collider.GetComponent<EnemyHealth>();
             if (health != null)
             {
-                health.TakeDamage(1);
+                health.TakeDamage(5);
             }
         }
     }
